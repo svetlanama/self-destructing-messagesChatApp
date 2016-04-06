@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E839C4137C3164945BF3F92 /* libPods-self-destructing-messagesChatApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EECADFD212BCB9792D3824 /* libPods-self-destructing-messagesChatApp.a */; };
+		EA19C1BF1CB5949F003723E4 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19C1BE1CB5949F003723E4 /* AlertUtils.swift */; };
+		EA5D2CA91CB5876D00F453A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CA81CB5876D00F453A3 /* AppDelegate.swift */; };
+		EA5D2CAE1CB5876D00F453A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D2CAC1CB5876D00F453A3 /* Main.storyboard */; };
+		EA5D2CB01CB5876D00F453A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5D2CAF1CB5876D00F453A3 /* Assets.xcassets */; };
+		EA5D2CB31CB5876D00F453A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D2CB11CB5876D00F453A3 /* LaunchScreen.storyboard */; };
+		EA5D2CBE1CB5876D00F453A3 /* self_destructing_messagesChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CBD1CB5876D00F453A3 /* self_destructing_messagesChatAppTests.swift */; };
+		EA5D2CC91CB5876D00F453A3 /* self_destructing_messagesChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CC81CB5876D00F453A3 /* self_destructing_messagesChatAppUITests.swift */; };
+		EA5D2CDB1CB5888200F453A3 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CDA1CB5888200F453A3 /* UsersViewController.swift */; };
+		EA5D2CDD1CB5891800F453A3 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CDC1CB5891800F453A3 /* ChatRoom.swift */; };
+		EA5D2CDF1CB589B200F453A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CDE1CB589B200F453A3 /* User.swift */; };
+		EA5D2CE31CB58C9A00F453A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CE11CB58C9A00F453A3 /* LoginViewController.swift */; };
+		EA5D2CE41CB58C9A00F453A3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CE21CB58C9A00F453A3 /* RegistrationViewController.swift */; };
+		EA5D2CE61CB58CF400F453A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CE51CB58CF400F453A3 /* Constants.swift */; };
+		EA5D2CE91CB58EC600F453A3 /* SharedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CE71CB58EC600F453A3 /* SharedDelegate.swift */; };
+		EA5D2CEA1CB58EC600F453A3 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CE81CB58EC600F453A3 /* UIColor+App.swift */; };
+		EA5D2CF41CB58F6500F453A3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D2CF11CB58F6500F453A3 /* UserService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5D2CBA1CB5876D00F453A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5D2C9D1CB5876D00F453A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5D2CA41CB5876D00F453A3;
+			remoteInfo = "self-destructing-messagesChatApp";
+		};
+		EA5D2CC51CB5876D00F453A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5D2C9D1CB5876D00F453A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5D2CA41CB5876D00F453A3;
+			remoteInfo = "self-destructing-messagesChatApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64EECADFD212BCB9792D3824 /* libPods-self-destructing-messagesChatApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-self-destructing-messagesChatApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2271492EEC9E6F3E7B4CE80 /* Pods-self-destructing-messagesChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-self-destructing-messagesChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-self-destructing-messagesChatApp/Pods-self-destructing-messagesChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		EA19C1BE1CB5949F003723E4 /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertUtils.swift; path = Utils/AlertUtils.swift; sourceTree = "<group>"; };
+		EA5D2CA51CB5876D00F453A3 /* self-destructing-messagesChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "self-destructing-messagesChatApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D2CA81CB5876D00F453A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA5D2CAD1CB5876D00F453A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5D2CAF1CB5876D00F453A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5D2CB21CB5876D00F453A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5D2CB41CB5876D00F453A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D2CB91CB5876D00F453A3 /* self-destructing-messagesChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self-destructing-messagesChatAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D2CBD1CB5876D00F453A3 /* self_destructing_messagesChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_destructing_messagesChatAppTests.swift; sourceTree = "<group>"; };
+		EA5D2CBF1CB5876D00F453A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D2CC41CB5876D00F453A3 /* self-destructing-messagesChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self-destructing-messagesChatAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D2CC81CB5876D00F453A3 /* self_destructing_messagesChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_destructing_messagesChatAppUITests.swift; sourceTree = "<group>"; };
+		EA5D2CCA1CB5876D00F453A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D2CDA1CB5888200F453A3 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = ViewControllers/UsersViewController.swift; sourceTree = "<group>"; };
+		EA5D2CDC1CB5891800F453A3 /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatRoom.swift; path = Model/ChatRoom.swift; sourceTree = "<group>"; };
+		EA5D2CDE1CB589B200F453A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
+		EA5D2CE11CB58C9A00F453A3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/Auth/LoginViewController.swift; sourceTree = "<group>"; };
+		EA5D2CE21CB58C9A00F453A3 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = ViewControllers/Auth/RegistrationViewController.swift; sourceTree = "<group>"; };
+		EA5D2CE51CB58CF400F453A3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utils/Constants.swift; sourceTree = "<group>"; };
+		EA5D2CE71CB58EC600F453A3 /* SharedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedDelegate.swift; path = Utils/SharedDelegate.swift; sourceTree = "<group>"; };
+		EA5D2CE81CB58EC600F453A3 /* UIColor+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+App.swift"; path = "Utils/UIColor+App.swift"; sourceTree = "<group>"; };
+		EA5D2CEC1CB58F3700F453A3 /* self-destructing-messagesChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "self-destructing-messagesChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA5D2CF11CB58F6500F453A3 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Sevices/UserService.swift; sourceTree = "<group>"; };
+		FCCB952A630196D30C59782D /* Pods-self-destructing-messagesChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-self-destructing-messagesChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-self-destructing-messagesChatApp/Pods-self-destructing-messagesChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5D2CA21CB5876D00F453A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E839C4137C3164945BF3F92 /* libPods-self-destructing-messagesChatApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CB61CB5876D00F453A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CC11CB5876D00F453A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B8D894BE77A81B457BCACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB952A630196D30C59782D /* Pods-self-destructing-messagesChatApp.debug.xcconfig */,
+				A2271492EEC9E6F3E7B4CE80 /* Pods-self-destructing-messagesChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA5D2C9C1CB5876D00F453A3 = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CA71CB5876D00F453A3 /* self-destructing-messagesChatApp */,
+				EA5D2CBC1CB5876D00F453A3 /* self-destructing-messagesChatAppTests */,
+				EA5D2CC71CB5876D00F453A3 /* self-destructing-messagesChatAppUITests */,
+				EA5D2CA61CB5876D00F453A3 /* Products */,
+				79B8D894BE77A81B457BCACC /* Pods */,
+				EABCFD28A02591AABE193CEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5D2CA61CB5876D00F453A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CA51CB5876D00F453A3 /* self-destructing-messagesChatApp.app */,
+				EA5D2CB91CB5876D00F453A3 /* self-destructing-messagesChatAppTests.xctest */,
+				EA5D2CC41CB5876D00F453A3 /* self-destructing-messagesChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5D2CA71CB5876D00F453A3 /* self-destructing-messagesChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CD91CB5885B00F453A3 /* Model */,
+				EA5D2CD81CB5885400F453A3 /* Services */,
+				EA5D2CD71CB5884F00F453A3 /* Utils */,
+				EA5D2CD61CB5884500F453A3 /* ViewControllers */,
+				EA5D2CA81CB5876D00F453A3 /* AppDelegate.swift */,
+				EA5D2CAC1CB5876D00F453A3 /* Main.storyboard */,
+				EA5D2CAF1CB5876D00F453A3 /* Assets.xcassets */,
+				EA5D2CB11CB5876D00F453A3 /* LaunchScreen.storyboard */,
+				EA5D2CB41CB5876D00F453A3 /* Info.plist */,
+				EA5D2CEC1CB58F3700F453A3 /* self-destructing-messagesChatApp-Bridging-Header.h */,
+			);
+			path = "self-destructing-messagesChatApp";
+			sourceTree = "<group>";
+		};
+		EA5D2CBC1CB5876D00F453A3 /* self-destructing-messagesChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CBD1CB5876D00F453A3 /* self_destructing_messagesChatAppTests.swift */,
+				EA5D2CBF1CB5876D00F453A3 /* Info.plist */,
+			);
+			path = "self-destructing-messagesChatAppTests";
+			sourceTree = "<group>";
+		};
+		EA5D2CC71CB5876D00F453A3 /* self-destructing-messagesChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CC81CB5876D00F453A3 /* self_destructing_messagesChatAppUITests.swift */,
+				EA5D2CCA1CB5876D00F453A3 /* Info.plist */,
+			);
+			path = "self-destructing-messagesChatAppUITests";
+			sourceTree = "<group>";
+		};
+		EA5D2CD61CB5884500F453A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CE01CB58BBF00F453A3 /* Auth */,
+				EA5D2CDA1CB5888200F453A3 /* UsersViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA5D2CD71CB5884F00F453A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CE71CB58EC600F453A3 /* SharedDelegate.swift */,
+				EA5D2CE81CB58EC600F453A3 /* UIColor+App.swift */,
+				EA5D2CE51CB58CF400F453A3 /* Constants.swift */,
+				EA19C1BE1CB5949F003723E4 /* AlertUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EA5D2CD81CB5885400F453A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CF11CB58F6500F453A3 /* UserService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		EA5D2CD91CB5885B00F453A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CDC1CB5891800F453A3 /* ChatRoom.swift */,
+				EA5D2CDE1CB589B200F453A3 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA5D2CE01CB58BBF00F453A3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D2CE11CB58C9A00F453A3 /* LoginViewController.swift */,
+				EA5D2CE21CB58C9A00F453A3 /* RegistrationViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		EABCFD28A02591AABE193CEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64EECADFD212BCB9792D3824 /* libPods-self-destructing-messagesChatApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5D2CA41CB5876D00F453A3 /* self-destructing-messagesChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D2CCD1CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatApp" */;
+			buildPhases = (
+				ADAD6B01B649556C96AC2E45 /* Check Pods Manifest.lock */,
+				EA5D2CA11CB5876D00F453A3 /* Sources */,
+				EA5D2CA21CB5876D00F453A3 /* Frameworks */,
+				EA5D2CA31CB5876D00F453A3 /* Resources */,
+				55A1F1DF09F7F1FFE38024C8 /* Embed Pods Frameworks */,
+				A519FB5248E4D9D396D5D181 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "self-destructing-messagesChatApp";
+			productName = "self-destructing-messagesChatApp";
+			productReference = EA5D2CA51CB5876D00F453A3 /* self-destructing-messagesChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5D2CB81CB5876D00F453A3 /* self-destructing-messagesChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D2CD01CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatAppTests" */;
+			buildPhases = (
+				EA5D2CB51CB5876D00F453A3 /* Sources */,
+				EA5D2CB61CB5876D00F453A3 /* Frameworks */,
+				EA5D2CB71CB5876D00F453A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5D2CBB1CB5876D00F453A3 /* PBXTargetDependency */,
+			);
+			name = "self-destructing-messagesChatAppTests";
+			productName = "self-destructing-messagesChatAppTests";
+			productReference = EA5D2CB91CB5876D00F453A3 /* self-destructing-messagesChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA5D2CC31CB5876D00F453A3 /* self-destructing-messagesChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D2CD31CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatAppUITests" */;
+			buildPhases = (
+				EA5D2CC01CB5876D00F453A3 /* Sources */,
+				EA5D2CC11CB5876D00F453A3 /* Frameworks */,
+				EA5D2CC21CB5876D00F453A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5D2CC61CB5876D00F453A3 /* PBXTargetDependency */,
+			);
+			name = "self-destructing-messagesChatAppUITests";
+			productName = "self-destructing-messagesChatAppUITests";
+			productReference = EA5D2CC41CB5876D00F453A3 /* self-destructing-messagesChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5D2C9D1CB5876D00F453A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Svitlana Moiseyenko";
+				TargetAttributes = {
+					EA5D2CA41CB5876D00F453A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EA5D2CB81CB5876D00F453A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EA5D2CA41CB5876D00F453A3;
+					};
+					EA5D2CC31CB5876D00F453A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EA5D2CA41CB5876D00F453A3;
+					};
+				};
+			};
+			buildConfigurationList = EA5D2CA01CB5876D00F453A3 /* Build configuration list for PBXProject "self-destructing-messagesChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5D2C9C1CB5876D00F453A3;
+			productRefGroup = EA5D2CA61CB5876D00F453A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5D2CA41CB5876D00F453A3 /* self-destructing-messagesChatApp */,
+				EA5D2CB81CB5876D00F453A3 /* self-destructing-messagesChatAppTests */,
+				EA5D2CC31CB5876D00F453A3 /* self-destructing-messagesChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5D2CA31CB5876D00F453A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D2CB31CB5876D00F453A3 /* LaunchScreen.storyboard in Resources */,
+				EA5D2CB01CB5876D00F453A3 /* Assets.xcassets in Resources */,
+				EA5D2CAE1CB5876D00F453A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CB71CB5876D00F453A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CC21CB5876D00F453A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55A1F1DF09F7F1FFE38024C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-self-destructing-messagesChatApp/Pods-self-destructing-messagesChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A519FB5248E4D9D396D5D181 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-self-destructing-messagesChatApp/Pods-self-destructing-messagesChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAD6B01B649556C96AC2E45 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5D2CA11CB5876D00F453A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D2CE31CB58C9A00F453A3 /* LoginViewController.swift in Sources */,
+				EA5D2CE91CB58EC600F453A3 /* SharedDelegate.swift in Sources */,
+				EA5D2CEA1CB58EC600F453A3 /* UIColor+App.swift in Sources */,
+				EA5D2CDB1CB5888200F453A3 /* UsersViewController.swift in Sources */,
+				EA5D2CF41CB58F6500F453A3 /* UserService.swift in Sources */,
+				EA5D2CDD1CB5891800F453A3 /* ChatRoom.swift in Sources */,
+				EA5D2CE41CB58C9A00F453A3 /* RegistrationViewController.swift in Sources */,
+				EA5D2CE61CB58CF400F453A3 /* Constants.swift in Sources */,
+				EA19C1BF1CB5949F003723E4 /* AlertUtils.swift in Sources */,
+				EA5D2CDF1CB589B200F453A3 /* User.swift in Sources */,
+				EA5D2CA91CB5876D00F453A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CB51CB5876D00F453A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D2CBE1CB5876D00F453A3 /* self_destructing_messagesChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D2CC01CB5876D00F453A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D2CC91CB5876D00F453A3 /* self_destructing_messagesChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5D2CBB1CB5876D00F453A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5D2CA41CB5876D00F453A3 /* self-destructing-messagesChatApp */;
+			targetProxy = EA5D2CBA1CB5876D00F453A3 /* PBXContainerItemProxy */;
+		};
+		EA5D2CC61CB5876D00F453A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5D2CA41CB5876D00F453A3 /* self-destructing-messagesChatApp */;
+			targetProxy = EA5D2CC51CB5876D00F453A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5D2CAC1CB5876D00F453A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5D2CAD1CB5876D00F453A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5D2CB11CB5876D00F453A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5D2CB21CB5876D00F453A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5D2CCB1CB5876D00F453A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA5D2CCC1CB5876D00F453A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5D2CCE1CB5876D00F453A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCB952A630196D30C59782D /* Pods-self-destructing-messagesChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "self-destructing-messagesChatApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "self-destructing-messagesChatApp/self-destructing-messagesChatApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA5D2CCF1CB5876D00F453A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2271492EEC9E6F3E7B4CE80 /* Pods-self-destructing-messagesChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "self-destructing-messagesChatApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "self-destructing-messagesChatApp/self-destructing-messagesChatApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EA5D2CD11CB5876D00F453A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "self-destructing-messagesChatAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/self-destructing-messagesChatApp.app/self-destructing-messagesChatApp";
+			};
+			name = Debug;
+		};
+		EA5D2CD21CB5876D00F453A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "self-destructing-messagesChatAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/self-destructing-messagesChatApp.app/self-destructing-messagesChatApp";
+			};
+			name = Release;
+		};
+		EA5D2CD41CB5876D00F453A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "self-destructing-messagesChatAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "self-destructing-messagesChatApp";
+			};
+			name = Debug;
+		};
+		EA5D2CD51CB5876D00F453A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "self-destructing-messagesChatAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.as.self-destructing-messagesChatAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "self-destructing-messagesChatApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5D2CA01CB5876D00F453A3 /* Build configuration list for PBXProject "self-destructing-messagesChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D2CCB1CB5876D00F453A3 /* Debug */,
+				EA5D2CCC1CB5876D00F453A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5D2CCD1CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D2CCE1CB5876D00F453A3 /* Debug */,
+				EA5D2CCF1CB5876D00F453A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5D2CD01CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D2CD11CB5876D00F453A3 /* Debug */,
+				EA5D2CD21CB5876D00F453A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5D2CD31CB5876D00F453A3 /* Build configuration list for PBXNativeTarget "self-destructing-messagesChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D2CD41CB5876D00F453A3 /* Debug */,
+				EA5D2CD51CB5876D00F453A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5D2C9D1CB5876D00F453A3 /* Project object */;
+}
